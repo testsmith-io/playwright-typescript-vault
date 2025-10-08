@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
-import { HomePage } from "../pages/home.page";
-import { LoginPage } from "pages/login.page";
-import { AccountPage } from "../pages/account.page";
+import { HomePage } from "../src/pages/home.page";
+import { LoginPage } from "../src/pages/login.page";
+import { AccountPage } from "../src/pages/account.page";
 import { vault } from '../src/utils/crypto-vault';
 import { Credentials } from "../src/types/credentials";
 
