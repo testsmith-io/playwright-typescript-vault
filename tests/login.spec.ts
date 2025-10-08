@@ -7,7 +7,6 @@ import { Credentials } from "../src/types/credentials";
 
 test( 'login success', async ( { page } ) => {
     const password = vault.get( 'customer' );
-
     const credentials: Credentials = {
         email: 'customer@practicesoftwaretesting.com',
         password: 'xxx'
